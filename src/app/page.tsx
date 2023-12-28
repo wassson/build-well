@@ -74,15 +74,15 @@ export default function Home() {
           <div className="p-6 rounded-xl bg-neutral-800 shadow-lg">
             <h4 className="mb-1">Connect on Slack</h4>
             <p className="text-sm text-neutral-400">
-              Once you've subscribed, we'll get you set up on Slack. This is
-              where you'll make requests.
+              Once you have subscribed, we will get you set up on Slack. This is
+              where you will make requests.
             </p>
           </div>
           <div className="p-6 rounded-xl bg-neutral-800 shadow-lg">
             <h4 className="mb-1">Sync codebase</h4>
             <p className="text-sm text-neutral-400">
-              With an existing project, we'll fit into your workflow. Otherwise,
-              we've got it covered.
+              With an existing project, we will fit into your workflow. Otherwise,
+              we have got it covered.
             </p>
           </div>
           <div className="p-6 rounded-xl bg-neutral-800 shadow-lg">
@@ -95,14 +95,14 @@ export default function Home() {
           <div className="p-6 rounded-xl bg-neutral-800 shadow-lg">
             <h4 className="mb-1">Completely asynchronous</h4>
             <p className="text-sm text-neutral-400">
-              Of course, we'll start with a debrief of your project, but once we
-              get going, we'll be all async baby.
+              Of course, we will start with a debrief of your project, but once we
+              get going, we will be all async baby.
             </p>
           </div>
           <div className="p-6 rounded-xl bg-neutral-800 shadow-lg">
             <h4 className="mb-1">Quick turnaround</h4>
             <p className="text-sm text-neutral-400">
-              On average we'll have a PR tested and reviewed within 5 business
+              On average we will have a PR tested and reviewed within 5 business
               days - depending on the size of your request!
             </p>
           </div>
@@ -132,7 +132,7 @@ export default function Home() {
             <p>- Unlimited code reviews</p>
             <p>- Tested code</p>
             <p>- CI/CD workflows</p>
-            <p>- Pause or cancel when you're ready</p>
+            <p>- Pause or cancel when you are ready</p>
           </div>
         </div>
         <div className="p-6 rounded-xl bg-gradient-to-br from-neutral-800 to-emerald-300/10 shadow-lg">
@@ -175,10 +175,10 @@ export default function Home() {
             </p>
             <div className="flex justify-end">
               <p className="w-2/3 mt-3 px-3 py-1.5 text-neutral-700 bg-white rounded-xl">
-                When you choose a subscription, we'll set up a time to meet and
+                When you choose a subscription, we will set up a time to meet and
                 discuss your project needs. Once all questions are answered and
-                you're ready to get started, you'll be free to make requests via
-                Slack. We'll handle all regular communication through Slack, but
+                you are ready to get started, you will be free to make requests via
+                Slack. We will handle all regular communication through Slack, but
                 rest assured you can reach out to us any time you need us.
               </p>
             </div>
@@ -189,14 +189,14 @@ export default function Home() {
             </p>
             <div className="flex justify-end">
               <p className="max-w-2/3 inline-block mt-3 px-3 py-1.5 text-neutral-700 bg-white rounded-xl">
-                Yes! You can upgrade any point you're ready to jump to the next
+                Yes! You can upgrade any point you are ready to jump to the next
                 level.
               </p>
             </div>
           </div>
           <div className="mt-4">
             <p className="inline-block max-w-2/3 px-3 py-1.5 bg-neutral-800 rounded-full">
-              I'm not familiar Ruby on Rails, but I do have experience with ...,
+              I am not familiar Ruby on Rails, but I do have experience with ...,
               are you open to it?
             </p>
             <div className="flex justify-end">
