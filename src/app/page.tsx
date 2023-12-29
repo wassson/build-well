@@ -391,43 +391,42 @@ export default function Home() {
               Slack channel.
             </p>
           </div>
-          <div className="absolute z-20 w-96 -mt-20 ml-12 bg-neutral-800 rounded-xl shadow-xl">
-            <div className="p-3">
-              <div className="flex gap-x-1.5">
-                <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
-                  <Image
-                    src="/images/tj.png"
-                    alt="Profile picture for Austin"
-                    className="mt-0.5"
-                    fill={true}
-                  />
-                </div>
-                <div className="flex-grow">
-                  <p className="text-sm font-lato font-bold">build well</p>
-                  <p className="text-sm font-lato">
-                    Welcome to Build Well! We are excited to get started. We
-                    will reach out to you shortly to schedule a call.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
         </div>
       </div>
 
-      <div className="mt-6 pt-6 pb-24 pr-12">
+      <div className="relative mt-6 pt-6 pb-24 pr-12">
         <div className="flex justify-end px-6 py-3">
           <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-100 to-indigo-300 shadow-xl transform rotate-3">
             <div className="flex items-center gap-x-1.5">
-              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">
-                S
+              <div className="relative w-4 h-4">
+                <Image src="/images/slack.png" alt="Slack logo" fill={true} />
               </div>
               <h4 className="font-medium text-indigo-900">Slack</h4>
             </div>
             <p className="mt-1 text-neutral-900/50">
-              Choose a subscription and we will get you set up with a prive
-              Slack channel.
+              Once you have subscribed, we will get you set up on Slack!
             </p>
+          </div>
+        </div>
+        <div className="absolute z-20 w-96 -mt-20 ml-12 bg-neutral-800 rounded-xl shadow-xl">
+          <div className="p-3">
+            <div className="flex gap-x-1.5">
+              <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
+                <Image
+                  src="/images/tj.png"
+                  alt="Profile picture for Austin"
+                  className="mt-0.5"
+                  fill={true}
+                />
+              </div>
+              <div className="flex-grow">
+                <p className="text-sm font-lato font-bold">build well</p>
+                <p className="text-sm font-lato">
+                  Welcome to Build Well! We are excited to get started. We will
+                  reach out to you shortly to schedule a call.
+                </p>
+              </div>
+            </div>
           </div>
         </div>
       </div>
