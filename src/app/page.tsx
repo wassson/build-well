@@ -374,7 +374,7 @@ export default function Home() {
       </div>
 
       <div className="mt-6 py-6 pl-12 overflow-x-hidden">
-        <h1 className="text-xl text-neutral-400">
+        <h1 className="pr-12 text-xl text-neutral-400">
           <span className="text-white">Skip the hiring mess. </span>
           We work quickly to get your projects where they need to go.
         </h1>
