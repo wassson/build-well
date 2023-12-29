@@ -382,7 +382,7 @@ export default function Home() {
           <div className="w-48 h-56 -ml-12 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
             <h4 className="font-medium text-sky-900">Subscribe</h4>
             <p className="mt-1 text-neutral-900/50">
-              Choose a subscription and we'll immediately get you set up with a
+              Choose a subscription and we will get you set up with a
               prive Slack channel.
             </p>
           </div>
