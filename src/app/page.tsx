@@ -278,105 +278,134 @@ export default function Home() {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-screen h-screen bg-neutral-900 text-white p-6">
-      <div className="p-6 border-x border-b border-neutral-800 rounded-2xl shadow-xl">
-        <nav className="flex items-center justify-between">
-          <div className="flex items-center">
-            <div className="flex flex-col items-center justify-center w-6 h-6 bg-white rounded hover:z-20 cursor-pointer">
-              <div className="flex">
-                <div className="w-2 h-2 rounded-b-md rounded-tr-md bg-neutral-900"></div>
-                <div className="w-2 h-2 rounded-b-md rounded-tl-md bg-neutral-900"></div>
+    <div className="w-screen h-screen bg-neutral-900 text-white">
+      <div className="p-6">
+        <div className="p-6 border-x border-b border-neutral-800 rounded-2xl shadow-xl">
+          <nav className="flex items-center justify-between">
+            <div className="flex items-center">
+              <div className="flex flex-col items-center justify-center w-6 h-6 bg-white rounded hover:z-20 cursor-pointer">
+                <div className="flex">
+                  <div className="w-2 h-2 rounded-b-md rounded-tr-md bg-neutral-900"></div>
+                  <div className="w-2 h-2 rounded-b-md rounded-tl-md bg-neutral-900"></div>
+                </div>
+                <div className="flex">
+                  <div className="w-2 h-2 rounded-t-md rounded-br-md bg-neutral-900"></div>
+                  <div className="w-2 h-2 rounded-t-md rounded-bl-md bg-neutral-900"></div>
+                </div>
               </div>
-              <div className="flex">
-                <div className="w-2 h-2 rounded-t-md rounded-br-md bg-neutral-900"></div>
-                <div className="w-2 h-2 rounded-t-md rounded-bl-md bg-neutral-900"></div>
+              <div className="relative w-6 h-6 -ml-0.5 bg-sky-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
+                <Image
+                  src="/images/austin.png"
+                  alt="Profile picture for Austin"
+                  className="mt-0.5"
+                  fill={true}
+                />
               </div>
+              <div className="relative w-6 h-6 -ml-1.5 bg-amber-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
+                <Image
+                  src="/images/tj.png"
+                  alt="Profile picture for Austin"
+                  className="mt-0.5"
+                  fill={true}
+                />
+              </div>
+              <h4 className="ml-3">build well</h4>
             </div>
-            <div className="relative w-6 h-6 -ml-0.5 bg-sky-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
-              <Image
-                src="/images/austin.png"
-                alt="Profile picture for Austin"
-                className="mt-0.5"
-                fill={true}
-              />
-            </div>
-            <div className="relative w-6 h-6 -ml-1.5 bg-amber-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
-              <Image
-                src="/images/tj.png"
-                alt="Profile picture for Austin"
-                className="mt-0.5"
-                fill={true}
-              />
-            </div>
-            <h4 className="ml-3">build well</h4>
-          </div>
-          <div className="flex justify-end"></div>
-        </nav>
+            <div className="flex justify-end"></div>
+          </nav>
 
-        <div className="mt-9">
-          <div>
-            <h1 className="text-2xl text-neutral-400">
-              <span className="text-white">Your Ruby on Rails partners. </span>
-              Gain access to instant, world-class developers for one simple
-              monthly fee.
-            </h1>
-            <div className="flex gap-x-3 mt-9 text-sm">
-              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white font-medium text-black">
-                See plans
-                <svg
-                  width="24"
-                  height="24"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="transform rotate-90"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M14.75 4.75L19.25 9L14.75 13.25"
-                  ></path>
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M19.25 9H8.75C6.54086 9 4.75 10.7909 4.75 13V19.25"
-                  ></path>
-                </svg>
-              </button>
-              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white/10 font-medium">
-                Book a call
-                <svg
-                  xmlns="http://www.w3.org/2000/svg"
-                  width="24"
-                  height="24"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M19.25 12.25v-3.5a2 2 0 0 0-2-2H6.75a2 2 0 0 0-2 2v8.5a2 2 0 0 0 2 2h4.5m3.5-1.5 1.5 1.5c.75-2.25 3-3.5 3-3.5M8 4.75v3.5m8-3.5v3.5m-8.25 2.5h8.5"
-                  ></path>
-                </svg>
-              </button>
+          <div className="mt-9">
+            <div>
+              <h1 className="text-2xl text-neutral-400">
+                <span className="text-white">
+                  Your Ruby on Rails partners.{" "}
+                </span>
+                Gain access to instant, world-class developers for one simple
+                monthly fee.
+              </h1>
+              <div className="flex gap-x-3 mt-9 text-sm">
+                <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white font-medium text-black">
+                  See plans
+                  <svg
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                    className="transform rotate-90"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M14.75 4.75L19.25 9L14.75 13.25"
+                    ></path>
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M19.25 9H8.75C6.54086 9 4.75 10.7909 4.75 13V19.25"
+                    ></path>
+                  </svg>
+                </button>
+                <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white/10 font-medium">
+                  Book a call
+                  <svg
+                    xmlns="http://www.w3.org/2000/svg"
+                    width="24"
+                    height="24"
+                    fill="none"
+                    viewBox="0 0 24 24"
+                  >
+                    <path
+                      stroke="currentColor"
+                      stroke-linecap="round"
+                      stroke-linejoin="round"
+                      stroke-width="1.5"
+                      d="M19.25 12.25v-3.5a2 2 0 0 0-2-2H6.75a2 2 0 0 0-2 2v8.5a2 2 0 0 0 2 2h4.5m3.5-1.5 1.5 1.5c.75-2.25 3-3.5 3-3.5M8 4.75v3.5m8-3.5v3.5m-8.25 2.5h8.5"
+                    ></path>
+                  </svg>
+                </button>
+              </div>
             </div>
           </div>
         </div>
       </div>
 
-      <div className="mt-6 p-6">
+      <div className="mt-6 py-6 pl-12 overflow-x-hidden">
         <h1 className="text-xl text-neutral-400">
           <span className="text-white">Skip the hiring mess. </span>
           We work quickly to get your projects where they need to go.
         </h1>
-        <div className="flex p-3 mt-9">
-          <div className="w-48 h-56 -ml-6 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
+        <div className="relative flex px-6 py-3 mt-9 ">
+          <div className="w-48 h-56 -ml-12 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
             <h4 className="font-medium text-sky-900">Subscribe</h4>
+            <p className="mt-1 text-neutral-900/50">
+              Choose a subscription and we'll immediately get you set up with a
+              prive Slack channel.
+            </p>
+          </div>
+          <div className="absolute top-36 left-20 z-20 w-96 bg-neutral-800 rounded-xl shadow-xl">
+            <div className="p-3">
+              <div className="flex gap-x-1.5">
+                <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
+                  <Image
+                    src="/images/tj.png"
+                    alt="Profile picture for Austin"
+                    className="mt-0.5"
+                    fill={true}
+                  />
+                </div>
+                <div className='flex-grow'>
+                  <p className="text-sm font-lato font-bold">build well</p>
+                  <p className="text-sm font-lato">
+                    Welcome to Build Well! We are excited to get started. We will
+                    reach out to you shortly to schedule a call.
+                  </p>
+                </div>
+              </div>
+            </div>
           </div>
         </div>
       </div>
