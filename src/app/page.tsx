@@ -373,14 +373,17 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-6 py-6 pl-12 overflow-x-hidden">
+      <div className="mt-6 pt-6 pb-24 pl-12 overflow-x-hidden">
         <h1 className="pr-12 text-xl text-neutral-400">
           <span className="text-white">Skip the hiring mess. </span>
           We work quickly to get your projects where they need to go.
         </h1>
         <div className="relative flex px-6 py-3 mt-9 ">
-          <div className="w-48 h-56 -ml-12 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
-            <h4 className="font-medium text-sky-900">Subscribe</h4>
+          <div className="w-48 h-56 -ml-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
+            <div className="flex items-center gap-x-1.5">
+              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">S</div>
+              <h4 className="font-medium text-sky-900">Subscribe</h4>
+            </div>
             <p className="mt-1 text-neutral-900/50">
               Choose a subscription and we will get you set up with a
               prive Slack channel.
