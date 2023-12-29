@@ -278,7 +278,7 @@ export default function Home() {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-screen h-screen bg-neutral-900 text-white">
+    <div className="w-screen bg-neutral-900 text-white">
       <div className="p-6">
         <div className="p-6 border-x border-b border-neutral-800 rounded-2xl shadow-xl">
           <nav className="flex items-center justify-between">
@@ -373,23 +373,25 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-6 pt-6 pb-24 pl-12 overflow-x-hidden">
-        <h1 className="pr-12 text-xl text-neutral-400">
+      <div className="mt-6 py-6 px-12 overflow-x-hidden">
+        <h1 className="text-xl text-neutral-400">
           <span className="text-white">Skip the hiring mess. </span>
           We work quickly to get your projects where they need to go.
         </h1>
-        <div className="relative flex px-6 py-3 mt-9 ">
+        <div className="relative px-6 py-3 mt-9">
           <div className="w-48 h-56 -ml-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
             <div className="flex items-center gap-x-1.5">
-              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">S</div>
+              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">
+                S
+              </div>
               <h4 className="font-medium text-sky-900">Subscribe</h4>
             </div>
             <p className="mt-1 text-neutral-900/50">
-              Choose a subscription and we will get you set up with a
-              prive Slack channel.
+              Choose a subscription and we will get you set up with a prive
+              Slack channel.
             </p>
           </div>
-          <div className="absolute top-36 left-20 z-20 w-96 bg-neutral-800 rounded-xl shadow-xl">
+          <div className="absolute z-20 w-96 -mt-20 ml-12 bg-neutral-800 rounded-xl shadow-xl">
             <div className="p-3">
               <div className="flex gap-x-1.5">
                 <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
@@ -400,15 +402,32 @@ export default function Home() {
                     fill={true}
                   />
                 </div>
-                <div className='flex-grow'>
+                <div className="flex-grow">
                   <p className="text-sm font-lato font-bold">build well</p>
                   <p className="text-sm font-lato">
-                    Welcome to Build Well! We are excited to get started. We will
-                    reach out to you shortly to schedule a call.
+                    Welcome to Build Well! We are excited to get started. We
+                    will reach out to you shortly to schedule a call.
                   </p>
                 </div>
               </div>
             </div>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-6 pt-6 pb-24 pr-12">
+        <div className="flex justify-end px-6 py-3">
+          <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-100 to-indigo-300 shadow-xl transform rotate-3">
+            <div className="flex items-center gap-x-1.5">
+              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">
+                S
+              </div>
+              <h4 className="font-medium text-indigo-900">Slack</h4>
+            </div>
+            <p className="mt-1 text-neutral-900/50">
+              Choose a subscription and we will get you set up with a prive
+              Slack channel.
+            </p>
           </div>
         </div>
       </div>
