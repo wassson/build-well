@@ -201,7 +201,7 @@ export default function Home() {
       </div>
 
       <div className="w-full md:w-[500px] p-3">
-        <div className="px-3 pt-6 pb-3 border-x border-t border-neutral-800 rounded-xl shadow-xl">
+        <div className="px-6 py-6 border-x border-t border-neutral-800 rounded-2xl shadow-xl">
           <h1 className="px-12 text-center text-xl text-neutral-400">
             <span className="text-white">Flexible subscriptions. </span>
             Pause or cancel at any time.
@@ -219,32 +219,7 @@ export default function Home() {
               Best for those with an ongoing need for development work.
             </p>
             <div className="flex gap-x-3 mt-6 text-sm">
-              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-gradient-to-br from-indigo-300 to-indigo-200 border border-indigo-100 font-medium text-black">
-                Purchase plan
-                <svg
-                  width="24"
-                  height="24"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="transform rotate-90"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M14.75 4.75L19.25 9L14.75 13.25"
-                  ></path>
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M19.25 9H8.75C6.54086 9 4.75 10.7909 4.75 13V19.25"
-                  ></path>
-                </svg>
-              </button>
-              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white/10 border border-neutral-600 font-medium">
+              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-gradient-to-br from-indigo-300 to-indigo-200 border-t-2 border-indigo-100 font-medium text-black">
                 Book a call
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -277,32 +252,7 @@ export default function Home() {
               Best for the teams and projects that need to move quickly.
             </p>
             <div className="flex gap-x-3 mt-6 text-sm">
-              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white font-medium text-black">
-                Purchase plan
-                <svg
-                  width="24"
-                  height="24"
-                  fill="none"
-                  viewBox="0 0 24 24"
-                  className="transform rotate-90"
-                >
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M14.75 4.75L19.25 9L14.75 13.25"
-                  ></path>
-                  <path
-                    stroke="currentColor"
-                    stroke-linecap="round"
-                    stroke-linejoin="round"
-                    stroke-width="1.5"
-                    d="M19.25 9H8.75C6.54086 9 4.75 10.7909 4.75 13V19.25"
-                  ></path>
-                </svg>
-              </button>
-              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700 font-medium">
+              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-neutral-800 border-t-2 border-indigo-100 font-medium">
                 Book a call
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
