@@ -3,7 +3,7 @@ import Image from 'next/image'
 export default function Home() {
   return (
     <div className="md:flex md:flex-col md:items-center w-screen pb-24 bg-neutral-900 text-white">
-      <div className="w-full md:w-[500px] p-6">
+      <div className="w-full md:w-[500px] mt-6 p-6">
         <div className="p-6 border-x border-b border-neutral-800 rounded-2xl shadow-xl">
           <nav className="flex items-center justify-between">
             <div className="flex items-center">
