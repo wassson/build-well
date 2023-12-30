@@ -200,9 +200,9 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-6">
-        <div className="p-6 border-x border-t border-neutral-800 rounded-xl shadow-xl">
-          <h1 className="pr-12 text-xl text-neutral-400">
+      <div className="p-3">
+        <div className="px-3 py-6 border-x border-t border-neutral-800 rounded-xl shadow-xl">
+          <h1 className="pl-3 pr-12 text-xl text-neutral-400">
             <span className="text-white">Flexible subscriptions. </span>
             Pause or cancel at any time.
           </h1>
@@ -274,7 +274,7 @@ export default function Home() {
               </div>
             </div>
             <p className="mt-1.5 text-sm text-neutral-700">
-              Best for those with an ongoing need for development work.
+              Best for the teams and projects that need to move quickly.
             </p>
             <div className="flex gap-x-3 mt-6 text-sm">
               <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white font-medium text-black">
