@@ -2,8 +2,8 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <div className="w-screen pb-24 bg-neutral-900 text-white">
-      <div className="p-6">
+    <div className="md:flex md:flex-col md:items-center w-screen pb-24 bg-neutral-900 text-white">
+      <div className="w-full md:w-[500px] p-6">
         <div className="p-6 border-x border-b border-neutral-800 rounded-2xl shadow-xl">
           <nav className="flex items-center justify-between">
             <div className="flex items-center">
@@ -33,12 +33,12 @@ export default function Home() {
 
           <div className="mt-9">
             <div>
-              <h1 className="text-2xl text-neutral-400">
+              <h1 className="inline-block text-2xl text-neutral-400">
                 <span className="text-white">
                   Your <span className="text-red-500">Ruby on Rails</span>{" "}
                   partners.{" "}
                 </span>
-                Gain access to instant, world-class developers for one simple
+                Gain instant access to two world-class developers for one simple
                 monthly fee.
               </h1>
               <div className="flex gap-x-3 mt-9 text-sm">
@@ -91,7 +91,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-3 py-6 pl-12 overflow-x-hidden">
+      <div className="w-full md:w-[500px] mt-3 py-6 pl-12 overflow-x-hidden">
         <h1 className="pr-12 text-xl text-neutral-400">
           <span className="text-white">Skip the hiring mess. </span>
           We can be up and running in less than a day.
@@ -115,7 +115,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="my-6 pr-12 overflow-x-hiden">
+      <div className="w-full md:w-[500px] my-6 pr-12 overflow-x-hiden">
         <h1 className="pl-12 text-xl text-neutral-400">
           <span className="text-white">Dedicated to you. </span>
           We simplify the development process to fit your workflow and needs.
@@ -148,7 +148,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="w-full mt-6 py-6 pl-12 overflow-x-hidden">
+      <div className="w-full md:w-[500px] mt-6 py-6 pl-12 overflow-x-hidden">
         <h1 className="pr-12 text-xl text-neutral-400">
           <span className="text-white">Requests as good as completed. </span>
           We will have code tested and reviewed in an average of 5 days.
@@ -200,7 +200,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="p-3">
+      <div className="w-full md:w-[500px] p-3">
         <div className="px-3 pt-6 pb-3 border-x border-t border-neutral-800 rounded-xl shadow-xl">
           <h1 className="px-12 text-center text-xl text-neutral-400">
             <span className="text-white">Flexible subscriptions. </span>
@@ -325,7 +325,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-12 px-12 overflow-x-hidden">
+      <div className="w-full md:w-[500px] mt-12 px-12 overflow-x-hidden">
         <h1 className="text-center text-xl text-neutral-400">
           <span className="text-white">We love to code. </span>
           Truly. But more than that, we want to delight you with the quality
