@@ -421,59 +421,60 @@ export default function Home() {
                 <div className="px-2 py-2.5 border-b border-neutral-800">
                   <div className="w-12 h-2 bg-neutral-800 rounded-sm"></div>
                 </div>
-                <div className="p-2 text-neutral-200">
+                <div className="p-2 text-neutral-200 border-b border-neutral-900">
                   #build-well
                 </div>
               </div>
             </div>
           </div>
         </div>
-        {/* <div className="absolute z-20 flex justify-center w-full -mt-28 px-6">
-          <div className="bg-neutral-800 rounded-xl shadow-xl">
-            <div className="p-3">
-              <div className="flex gap-x-2">
-                <div className="relative w-5 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
-                  <Image
-                    src="/images/tj.png"
-                    alt="Profile picture for Austin"
-                    className="mt-0.5"
-                    fill={true}
-                  />
-                </div>
-                <div className="flex-grow">
-                  <p className="text-sm font-lato font-bold">build well</p>
-                  <p className="text-sm font-lato">
-                    Welcome to Build Well! We are excited to get started. We
-                    will reach out to you shortly to schedule a call.
-                  </p>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div> */}
       </div>
 
       <div className="mt-6 py-6 pl-12 overflow-x-hidden">
         <h1 className="pr-12 text-xl text-neutral-400">
-          <span className="text-white">Skip the hiring mess. </span>
-          We work quickly to get your projects where they need to go.
+          <span className="text-white">Requests that fit your schedule. </span>
+          We will have PRs tested and reviewed in an average of 5 days.
         </h1>
         <div className="flex px-6 py-3 mt-9">
-          <div className="-ml-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-amber-50 to-amber-200 shadow-xl transform -rotate-3">
+          <div className="w-56 -ml-9 p-3 text-sm rounded-xl bg-neutral-800 shadow-xl transform -rotate-3">
             <div className="flex items-center gap-x-1.5">
-              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">
-                S
+              <div className="relative w-5 h-5 -mt-1 text-emerald-300">
+                <svg width="24" height="24" fill="none" viewBox="0 0 24 24">
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M4.75 12C4.75 7.99594 7.99594 4.75 12 4.75V4.75C16.0041 4.75 19.25 7.99594 19.25 12V12C19.25 16.0041 16.0041 19.25 12 19.25V19.25C7.99594 19.25 4.75 16.0041 4.75 12V12Z"
+                  ></path>
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M9.75 12.75L10.1837 13.6744C10.5275 14.407 11.5536 14.4492 11.9564 13.7473L14.25 9.75"
+                  ></path>
+                </svg>
               </div>
-              <h4 className="font-medium text-sky-900">Requests</h4>
+              <h4 className="font-medium text-white">Requests</h4>
             </div>
-            <div className="mt-3 mb-1.5 pr-3 text-sm font-medium text-neutral-900">
-              <p>- Dedicated developers</p>
-              <p>- Quick turnaround</p>
-              <p>- Integrate with your team</p>
-              <p>- Private Slack channel</p>
-              <p>- Pause or cancel anytime</p>
+            <div className="mt-3 mb-1.5 pr-3 text-sm font-medium text-neutral-200">
+              <p className="mt-2 px-0.5">
+                We will have PRs tested and reviewed in an average of 5 days.
+              </p>
             </div>
           </div>
+        </div>
+      </div>
+
+      <div className="p-6">
+        <div className="p-6 border-x border-t border-neutral-800 rounded-xl">
+          <h1 className="pr-12 text-xl text-neutral-400">
+            <span className="text-white">
+              Flexible subscriptions.{" "}
+            </span>
+            Pause or cancel at any time.
+          </h1>
         </div>
       </div>
     </div>
