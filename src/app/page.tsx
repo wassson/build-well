@@ -403,8 +403,9 @@ export default function Home() {
 
       <div className="relative pb-24 pr-12">
         <h1 className="pl-12 text-xl text-neutral-400">
-          <span className="text-white">Skip the hiring mess. </span>
-          We work quickly to get your projects where they need to go.
+          <span className="text-white">Dedicated to you. </span>
+          We simplify the development process  and break up projects into hyper-focused, 
+          manageable requests.
         </h1>
         <div className="flex justify-end mt-6 px-6 py-3">
           <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-100 to-indigo-300 shadow-xl transform rotate-3">
