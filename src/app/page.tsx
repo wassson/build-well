@@ -193,8 +193,7 @@ export default function Home() {
                 </div>
               </div>
               <div className="p-3 ml-1">
-                <div className="absolute z-20 w-64 h-12 mt-3 p-2.5 bg-neutral-900 rounded-xl border border-neutral-800 shadow-xl">
-                </div>
+                <div className="absolute z-20 w-64 h-12 mt-3 p-2.5 bg-neutral-900 rounded-xl border border-neutral-800 shadow-xl"></div>
               </div>
             </div>
           </div>
@@ -207,26 +206,121 @@ export default function Home() {
             <span className="text-white">Flexible subscriptions. </span>
             Pause or cancel at any time.
           </h1>
-          <div className="mt-12 px-4 py-3 bg-gradient-to-br from-indigo-100 to-indigo-400 border-t-4 border-indigo-200 rounded-xl">
-            <h1 className="text-lg text-neutral-700">
-              <span className="font-medium text-indigo-950">
-                The Generalist.{" "}
-              </span>
-              Best for those who need one request completed at a time.
-            </h1>
-            <div className="mt-3 font-medium text-neutral-950">
-              <p>- Dedicated developers</p>
-              <p>- One request at a time</p>
-              <p>- Quick turnaround</p>
+          <div className="mt-12 px-4 py-3 bg-neutral-800 rounded-xl">
+            <div className="flex items-center justify-between">
+              <h1 className="text-lg font-medium text-white">
+                The Bottom Line
+              </h1>
+              <div className="flex items-center justify-center px-3 py-0.5 text-sm font-lato font-bold text-indigo-900 bg-gradient-to-br from-indigo-300 to-indigo-200 border border-indigo-100 rounded-full">
+                <p>$7,000</p>
+              </div>
+            </div>
+            <p className="mt-1.5 text-sm text-neutral-400">
+              Best for those with an ongoing need for development work.
+            </p>
+            <div className="flex gap-x-3 mt-6 text-sm">
+              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-gradient-to-br from-indigo-300 to-indigo-200 border border-indigo-100 font-medium text-black">
+                Purchase plan
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="transform rotate-90"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M14.75 4.75L19.25 9L14.75 13.25"
+                  ></path>
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19.25 9H8.75C6.54086 9 4.75 10.7909 4.75 13V19.25"
+                  ></path>
+                </svg>
+              </button>
+              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white/10 border border-neutral-600 font-medium">
+                Book a call
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19.25 12.25v-3.5a2 2 0 0 0-2-2H6.75a2 2 0 0 0-2 2v8.5a2 2 0 0 0 2 2h4.5m3.5-1.5 1.5 1.5c.75-2.25 3-3.5 3-3.5M8 4.75v3.5m8-3.5v3.5m-8.25 2.5h8.5"
+                  ></path>
+                </svg>
+              </button>
             </div>
           </div>
-          <div className="mt-6 p-4 text-neutral-900 bg-gradient-to-bl from-amber-100 to-amber-200 border-t-4 border-amber-50 rounded-xl">
-            <h1 className="text-lg text-neutral-700">
-              <span className="font-medium text-amber-950">
-                The Speed Runner.{" "}
-              </span>
-              Best for projects and teams who need to move faster.
-            </h1>
+          <div className="mt-6 px-4 py-3 bg-gradient-to-br from-indigo-100 to-indigo-400 rounded-xl">
+            <div className="flex items-center justify-between">
+              <h1 className="text-lg font-medium text-neutral-950">
+                The Speed Runner
+              </h1>
+              <div className="flex items-center justify-center px-3 py-0.5 text-sm font-lato font-bold text-emerald-900 bg-gradient-to-br from-emerald-300 to-emerald-100 border border-emerald-100 rounded-full">
+                <p>$10,500</p>
+              </div>
+            </div>
+            <p className="mt-1.5 text-sm text-neutral-700">
+              Best for those with an ongoing need for development work.
+            </p>
+            <div className="flex gap-x-3 mt-6 text-sm">
+              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-white font-medium text-black">
+                Purchase plan
+                <svg
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                  className="transform rotate-90"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M14.75 4.75L19.25 9L14.75 13.25"
+                  ></path>
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19.25 9H8.75C6.54086 9 4.75 10.7909 4.75 13V19.25"
+                  ></path>
+                </svg>
+              </button>
+              <button className="flex items-center gap-x-0.5 pl-4 pr-3 py-1.5 rounded-lg bg-neutral-800 border border-neutral-700 font-medium">
+                Book a call
+                <svg
+                  xmlns="http://www.w3.org/2000/svg"
+                  width="24"
+                  height="24"
+                  fill="none"
+                  viewBox="0 0 24 24"
+                >
+                  <path
+                    stroke="currentColor"
+                    stroke-linecap="round"
+                    stroke-linejoin="round"
+                    stroke-width="1.5"
+                    d="M19.25 12.25v-3.5a2 2 0 0 0-2-2H6.75a2 2 0 0 0-2 2v8.5a2 2 0 0 0 2 2h4.5m3.5-1.5 1.5 1.5c.75-2.25 3-3.5 3-3.5M8 4.75v3.5m8-3.5v3.5m-8.25 2.5h8.5"
+                  ></path>
+                </svg>
+              </button>
+            </div>
           </div>
         </div>
       </div>
