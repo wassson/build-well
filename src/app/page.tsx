@@ -327,7 +327,7 @@ export default function Home() {
 
       <div className="w-full md:w-[500px] mt-12 px-12 overflow-x-hidden">
         <h1 className="text-center text-xl text-neutral-400">
-          <span className="text-white">We love to code. </span>
+          <span className="text-white">We love code. </span>
           Truly. But more than that, we want to delight you with the quality
           that we deliver. We promise to make every line of code worth it.
         </h1>
