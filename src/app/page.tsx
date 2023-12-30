@@ -8,7 +8,7 @@ export default function Home() {
           <nav className="flex items-center justify-between">
             <div className="flex items-center">
               <div className="flex items-center justify-center w-6 h-6 text-xs font-semibold text-neutral-900 bg-white rounded hover:z-20 cursor-pointer">
-                Bw.
+                Bw
               </div>
               <div className="relative w-6 h-6 -ml-0.5 bg-sky-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
                 <Image
@@ -26,7 +26,7 @@ export default function Home() {
                   fill={true}
                 />
               </div>
-              <h4 className="ml-3">build well</h4>
+              <h4 className="ml-3">BuildWell</h4>
             </div>
             <div className="flex justify-end"></div>
           </nav>
@@ -176,8 +176,8 @@ export default function Home() {
               </div>
               <h4 className="font-medium text-white">Requests</h4>
             </div>
-            <div className="mt-3 mb-1.5 pr-3 text-sm font-medium text-neutral-200">
-              <div className="p-2.5 bg-neutral-900 rounded-xl border border-neutral-800 shadow-xl">
+            <div className="relative w-72 h-16 mt-3 mb-1.5 text-sm font-medium text-neutral-200">
+              <div className="absolute z-30 p-2.5 bg-neutral-900 rounded-xl border border-neutral-800 shadow-xl">
                 <div className="flex gap-x-2">
                   <img
                     src="https://github.com/wassson.png"
@@ -192,6 +192,10 @@ export default function Home() {
                   </div>
                 </div>
               </div>
+              <div className="p-3 ml-1">
+                <div className="absolute z-20 w-64 h-12 mt-3 p-2.5 bg-neutral-900 rounded-xl border border-neutral-800 shadow-xl">
+                </div>
+              </div>
             </div>
           </div>
         </div>
@@ -203,17 +207,22 @@ export default function Home() {
             <span className="text-white">Flexible subscriptions. </span>
             Pause or cancel at any time.
           </h1>
-          <div className="mt-12 p-4 bg-gradient-to-br from-indigo-100 to-indigo-400 border border-indigo-200 rounded">
+          <div className="mt-12 px-4 py-3 bg-gradient-to-br from-indigo-100 to-indigo-400 border-t-4 border-indigo-200 rounded-xl">
             <h1 className="text-lg text-neutral-700">
-              <span className="font-medium text-neutral-900">
+              <span className="font-medium text-indigo-950">
                 The Generalist.{" "}
               </span>
               Best for those who need one request completed at a time.
             </h1>
+            <div className="mt-3 font-medium text-neutral-950">
+              <p>- Dedicated developers</p>
+              <p>- One request at a time</p>
+              <p>- Quick turnaround</p>
+            </div>
           </div>
-          <div className="mt-6 p-4 text-neutral-900 bg-gradient-to-bl from-amber-100 to-amber-200 border border-amber-100 rounded">
+          <div className="mt-6 p-4 text-neutral-900 bg-gradient-to-bl from-amber-100 to-amber-200 border-t-4 border-amber-50 rounded-xl">
             <h1 className="text-lg text-neutral-700">
-              <span className="font-medium text-neutral-900">
+              <span className="font-medium text-amber-950">
                 The Speed Runner.{" "}
               </span>
               Best for projects and teams who need to move faster.
