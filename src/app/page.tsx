@@ -278,7 +278,7 @@ export default function Home() {
     //     </div>
     //   </div>
     // </div>
-    <div className="w-screen bg-neutral-900 text-white">
+    <div className="w-screen pb-24 bg-neutral-900 text-white">
       <div className="p-6">
         <div className="p-6 border-x border-b border-neutral-800 rounded-2xl shadow-xl">
           <nav className="flex items-center justify-between">
@@ -404,11 +404,10 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="relative pb-24 pr-12 overflow-x-hiden">
+      <div className="pb-24 pr-12 overflow-x-hiden">
         <h1 className="pl-12 text-xl text-neutral-400">
           <span className="text-white">Dedicated to you. </span>
-          We simplify the development process and break up projects into
-          hyper-focused, manageable requests.
+          We simplify the development process to fit your workflow and needs.
         </h1>
         <div className="flex justify-end mt-6 px-6 py-3">
           <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-50 to-indigo-300 shadow-xl transform rotate-3">
@@ -423,23 +422,25 @@ export default function Home() {
             </p>
           </div>
         </div>
-        <div className="absolute z-20 w-96 -mt-28 ml-12 bg-neutral-800 rounded-xl shadow-xl">
-          <div className="p-3">
-            <div className="flex gap-x-1.5">
-              <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
-                <Image
-                  src="/images/tj.png"
-                  alt="Profile picture for Austin"
-                  className="mt-0.5"
-                  fill={true}
-                />
-              </div>
-              <div className="flex-grow">
-                <p className="text-sm font-lato font-bold">build well</p>
-                <p className="text-sm font-lato">
-                  Welcome to Build Well! We are excited to get started. We will
-                  reach out to you shortly to schedule a call.
-                </p>
+        <div className="absolute z-20 flex justify-center w-full -mt-28 px-6">
+          <div className="bg-neutral-800 rounded-xl shadow-xl">
+            <div className="p-3">
+              <div className="flex gap-x-1.5">
+                <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
+                  <Image
+                    src="/images/tj.png"
+                    alt="Profile picture for Austin"
+                    className="mt-0.5"
+                    fill={true}
+                  />
+                </div>
+                <div className="flex-grow">
+                  <p className="text-sm font-lato font-bold">build well</p>
+                  <p className="text-sm font-lato">
+                    Welcome to Build Well! We are excited to get started. We will
+                    reach out to you shortly to schedule a call.
+                  </p>
+                </div>
               </div>
             </div>
           </div>
