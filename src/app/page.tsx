@@ -373,7 +373,7 @@ export default function Home() {
         </div>
       </div>
 
-      <div className="mt-6 py-6 pl-12 overflow-x-hidden">
+      <div className="mt-3 py-6 pl-12 overflow-x-hidden">
         <h1 className="pr-12 text-xl text-neutral-400">
           <span className="text-white">Skip the hiring mess. </span>
           We work quickly to get your projects where they need to go.
@@ -433,7 +433,7 @@ export default function Home() {
       <div className="mt-6 py-6 pl-12 overflow-x-hidden">
         <h1 className="pr-12 text-xl text-neutral-400">
           <span className="text-white">Requests that fit your schedule. </span>
-          We will have PRs tested and reviewed in an average of 5 days.
+          We will have code tested and reviewed in an average of 5 days.
         </h1>
         <div className="flex px-6 py-3 mt-9">
           <div className="w-56 -ml-9 p-3 text-sm rounded-xl bg-neutral-800 shadow-xl transform -rotate-3">
@@ -460,7 +460,7 @@ export default function Home() {
             </div>
             <div className="mt-3 mb-1.5 pr-3 text-sm font-medium text-neutral-200">
               <p className="mt-2 px-0.5">
-                We will have PRs tested and reviewed in an average of 5 days.
+                We will have code tested and reviewed in an average of 5 days.
               </p>
             </div>
           </div>
@@ -468,13 +468,64 @@ export default function Home() {
       </div>
 
       <div className="p-6">
-        <div className="p-6 border-x border-t border-neutral-800 rounded-xl">
+        <div className="p-6 border-x border-t border-neutral-800 rounded-xl shadow-xl">
           <h1 className="pr-12 text-xl text-neutral-400">
-            <span className="text-white">
-              Flexible subscriptions.{" "}
-            </span>
+            <span className="text-white">Flexible subscriptions. </span>
             Pause or cancel at any time.
           </h1>
+          <div className="mt-12 p-6 bg-white rounded-xl">
+            <h1 className="text-xl text-neutral-600">
+              <span className="font-medium text-neutral-900">
+                The Honorable Mention.{" "}
+              </span>
+              Best for those who need one request completed at a time.
+            </h1>
+          </div>
+          <div className="mt-6 p-6 text-neutral-900 bg-amber-100 rounded-xl">
+            <h1 className="text-xl text-neutral-600">
+              <span className="font-medium text-neutral-900">
+                The Quicken Loan.{" "}
+              </span>
+              Best for people and projects who need to move faster.
+            </h1>
+          </div>
+        </div>
+      </div>
+
+      <div className="mt-12 px-12 overflow-x-hidden">
+        <h1 className="text-center text-xl text-neutral-400">
+          <span className="text-white">We love to code. </span>
+          Truly. But more than that, we want to delight you with the quality
+          that we deliver. We promise to make every line of code worth it.
+        </h1>
+        <div className="flex justify-center mt-6">
+          <div className="relative h-20 w-72">
+            <Image
+              src="/images/signatures.png"
+              alt="Profile picture for Austin"
+              fill={true}
+            />
+          </div>
+        </div>
+        <div className="flex justify-center">
+          <div className="flex items-center justify-center gap-x-2.5 mt-6 mb-3">
+            <div className="relative w-6 h-6 bg-sky-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
+              <Image
+                src="/images/austin.png"
+                alt="Profile picture for Austin"
+                className="mt-0.5"
+                fill={true}
+              />
+            </div>
+            <div className="relative w-6 h-6 bg-amber-200 rounded-full outline outline-2 outline-neutral-900 shadow-lg hover:z-20 cursor-pointer">
+              <Image
+                src="/images/tj.png"
+                alt="Profile picture for TJ"
+                className="mt-0.5"
+                fill={true}
+              />
+            </div>
+          </div>
         </div>
       </div>
     </div>
