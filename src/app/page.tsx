@@ -379,36 +379,39 @@ export default function Home() {
           We work quickly to get your projects where they need to go.
         </h1>
         <div className="flex px-6 py-3 mt-9">
-          <div className="w-48 h-56 -ml-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-100 to-sky-200 shadow-xl transform -rotate-3">
+          <div className="-ml-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-sky-50 to-sky-200 shadow-xl transform -rotate-3">
             <div className="flex items-center gap-x-1.5">
               <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">
                 S
               </div>
               <h4 className="font-medium text-sky-900">Subscribe</h4>
             </div>
-            <p className="mt-1 text-neutral-900/50">
-              Choose a subscription and we will get you set up with a prive
-              Slack channel.
-            </p>
+            <div className="mt-3 mb-1.5 pr-3 text-sm font-medium text-neutral-900">
+              <p>- Dedicated developers</p>
+              <p>- Quick turnaround</p>
+              <p>- Integrate with your team</p>
+              <p>- Private Slack channel</p>
+              <p>- Pause or cancel anytime</p>
+            </div>
           </div>
-          <div className="pl-6 pt-12 text-sm text-emerald-400">
+          {/* <div className="pl-6 pt-12 text-sm text-emerald-400">
             <p>+ Dedicated developers</p>
             <p>+ Quick turnaround</p>
             <p>+ Integrate with your team</p>
             <p>+ Private Slack channel</p>
             <p>+ Pause or cancel anytime</p>
-          </div>
+          </div> */}
         </div>
       </div>
 
-      <div className="relative pb-24 pr-12">
+      <div className="relative pb-24 pr-12 overflow-x-hiden">
         <h1 className="pl-12 text-xl text-neutral-400">
           <span className="text-white">Dedicated to you. </span>
-          We simplify the development process  and break up projects into hyper-focused, 
-          manageable requests.
+          We simplify the development process and break up projects into
+          hyper-focused, manageable requests.
         </h1>
         <div className="flex justify-end mt-6 px-6 py-3">
-          <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-100 to-indigo-300 shadow-xl transform rotate-3">
+          <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-50 to-indigo-300 shadow-xl transform rotate-3">
             <div className="flex items-center gap-x-1.5">
               <div className="relative w-4 h-4">
                 <Image src="/images/slack.png" alt="Slack logo" fill={true} />
