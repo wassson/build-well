@@ -394,39 +394,45 @@ export default function Home() {
               <p>- Pause or cancel anytime</p>
             </div>
           </div>
-          {/* <div className="pl-6 pt-12 text-sm text-emerald-400">
-            <p>+ Dedicated developers</p>
-            <p>+ Quick turnaround</p>
-            <p>+ Integrate with your team</p>
-            <p>+ Private Slack channel</p>
-            <p>+ Pause or cancel anytime</p>
-          </div> */}
         </div>
       </div>
 
-      <div className="pb-24 pr-12 overflow-x-hiden">
+      <div className="my-6 pr-12 overflow-x-hiden">
         <h1 className="pl-12 text-xl text-neutral-400">
           <span className="text-white">Dedicated to you. </span>
           We simplify the development process to fit your workflow and needs.
         </h1>
         <div className="flex justify-end mt-6 px-6 py-3">
-          <div className="w-48 h-56 -mr-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-50 to-indigo-300 shadow-xl transform rotate-3">
+          <div className="w-48 -mr-9 px-3 pt-3 text-sm rounded-xl bg-gradient-to-bl from-indigo-50 to-indigo-300 shadow-xl transform rotate-3">
             <div className="flex items-center gap-x-1.5">
               <div className="relative w-4 h-4">
                 <Image src="/images/slack.png" alt="Slack logo" fill={true} />
               </div>
               <h4 className="font-medium text-indigo-900">Slack</h4>
             </div>
-            <p className="mt-1 text-neutral-900/50">
+            <p className="mt-2 px-0.5 font-medium text-neutral-900">
               Once you have subscribed, we will get you set up on Slack!
             </p>
+            <div className="mt-4">
+              <div className="text-xs font-medium bg-neutral-900 rounded-t-md">
+                <div className="px-2 py-2.5 border-b border-neutral-800">
+                  <div className="w-20 h-2 bg-neutral-800 rounded-sm"></div>
+                </div>
+                <div className="px-2 py-2.5 border-b border-neutral-800">
+                  <div className="w-12 h-2 bg-neutral-800 rounded-sm"></div>
+                </div>
+                <div className="p-2 text-neutral-200">
+                  #build-well
+                </div>
+              </div>
+            </div>
           </div>
         </div>
-        <div className="absolute z-20 flex justify-center w-full -mt-28 px-6">
+        {/* <div className="absolute z-20 flex justify-center w-full -mt-28 px-6">
           <div className="bg-neutral-800 rounded-xl shadow-xl">
             <div className="p-3">
-              <div className="flex gap-x-1.5">
-                <div className="relative w-10 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
+              <div className="flex gap-x-2">
+                <div className="relative w-5 h-5 bg-amber-200 rounded-md shadow-lg hover:z-20 cursor-pointer">
                   <Image
                     src="/images/tj.png"
                     alt="Profile picture for Austin"
@@ -437,11 +443,35 @@ export default function Home() {
                 <div className="flex-grow">
                   <p className="text-sm font-lato font-bold">build well</p>
                   <p className="text-sm font-lato">
-                    Welcome to Build Well! We are excited to get started. We will
-                    reach out to you shortly to schedule a call.
+                    Welcome to Build Well! We are excited to get started. We
+                    will reach out to you shortly to schedule a call.
                   </p>
                 </div>
               </div>
+            </div>
+          </div>
+        </div> */}
+      </div>
+
+      <div className="mt-6 py-6 pl-12 overflow-x-hidden">
+        <h1 className="pr-12 text-xl text-neutral-400">
+          <span className="text-white">Skip the hiring mess. </span>
+          We work quickly to get your projects where they need to go.
+        </h1>
+        <div className="flex px-6 py-3 mt-9">
+          <div className="-ml-9 p-3 text-sm rounded-xl bg-gradient-to-bl from-amber-50 to-amber-200 shadow-xl transform -rotate-3">
+            <div className="flex items-center gap-x-1.5">
+              <div className="flex items-center justify-center w-5 h-5 font-semibold rounded-full bg-gradient-to-b from-indigo-400 to-sky-200">
+                S
+              </div>
+              <h4 className="font-medium text-sky-900">Requests</h4>
+            </div>
+            <div className="mt-3 mb-1.5 pr-3 text-sm font-medium text-neutral-900">
+              <p>- Dedicated developers</p>
+              <p>- Quick turnaround</p>
+              <p>- Integrate with your team</p>
+              <p>- Private Slack channel</p>
+              <p>- Pause or cancel anytime</p>
             </div>
           </div>
         </div>
