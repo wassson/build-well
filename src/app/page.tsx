@@ -201,12 +201,12 @@ export default function Home() {
       </div>
 
       <div className="p-3">
-        <div className="px-3 py-6 border-x border-t border-neutral-800 rounded-xl shadow-xl">
-          <h1 className="pl-3 pr-12 text-xl text-neutral-400">
+        <div className="px-3 pt-6 pb-3 border-x border-t border-neutral-800 rounded-xl shadow-xl">
+          <h1 className="px-12 text-center text-xl text-neutral-400">
             <span className="text-white">Flexible subscriptions. </span>
             Pause or cancel at any time.
           </h1>
-          <div className="mt-12 px-4 py-3 bg-neutral-800 rounded-xl">
+          <div className="mt-6 px-4 py-3 bg-neutral-800 rounded-xl">
             <div className="flex items-center justify-between">
               <h1 className="text-lg font-medium text-white">
                 The Bottom Line
